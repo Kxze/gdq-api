@@ -11,10 +11,14 @@
   },
   "main": "lib/index.js",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "firebase-admin": "~5.12.1",
-    "firebase-functions": "^1.0.3"
+    "firebase-functions": "^1.1.0",
+    "node-fetch": "^2.1.2"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.8",
+    "@types/node-fetch": "^2.1.1",
     "tslint": "^5.8.0",
     "typescript": "^2.5.3"
   },
